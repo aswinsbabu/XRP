@@ -23,7 +23,7 @@ def send_msg_pico(data):
     except Exception as e:
         print(f"Error sending data to Pico: {e}")
 
-# MQTT configuration
+# MQTT configuration, update the following details
 MQTT_BROKER = "your mqtt server URL"
 MQTT_PORT = 8883
 MQTT_TOPIC = "test/topic"
